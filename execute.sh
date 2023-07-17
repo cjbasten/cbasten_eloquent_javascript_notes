@@ -1,0 +1,1 @@
+for i in chapter_*/*; do  echo "------$i-------" && node $i; done
