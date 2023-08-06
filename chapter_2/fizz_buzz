@@ -1,0 +1,37 @@
+/* Wording on the question was a little confusing so here is one way printing
+Fizz or Buzz with FizzBuzz and one way of doing it without. I wanted to use
+a switch but if/else probably would have been easier */
+
+
+for (let number = 1; number <= 100; number += 1) {
+  switch (true) {
+      case (number % 3 == 0 && number % 5 == 0):
+        console.log("FizzBuzz");
+        break;
+      case number % 3 == 0:
+        console.log("Fizz");
+        break;
+      case number % 5 == 0:
+        console.log("Buzz");
+        break;
+      default:
+        console.log(number)
+        break;
+  }
+}
+
+for (let number = 1; number <= 100; number += 1) {
+  switch (true) {
+      case (number % 3 == 0 && number % 5 == 0):
+        console.log("FizzBuzz");
+      case number % 3 == 0:
+        console.log("Fizz");
+        break;
+      case number % 5 == 0:
+        console.log("Buzz");
+        break;
+      default:
+        console.log(number)
+        break;
+  }
+}
