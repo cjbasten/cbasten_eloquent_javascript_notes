@@ -1,0 +1,25 @@
+let str1 = ''
+let size = 15
+for (let number = 0; number <= size; number += 1) {
+  for (let number2 = 0; number2 <= size; number2 += 1) {
+    if (number2 % 2 == 0 && number % 2 == 0) {
+      str1 = str1.concat(' ')
+      //console.log(str1)
+    }
+    if (number2 % 2 == 0 && number % 2 != 0) {
+      str1 = str1.concat('#')
+      //console.log(str1)
+    }
+    if (number2 % 2 == 0 && number % 2 == 0) {
+      str1 = str1.concat('#')
+      //console.log(str1)
+    } 
+    if (number2 % 2 == 0 && number % 2 != 0) {
+        str1 = str1.concat(' ')
+      //console.log(str1)
+    }
+  }
+  str1 = str1.concat('\n')
+  //console.log(str1)
+}
+console.log(str1)
