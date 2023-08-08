@@ -15,3 +15,6 @@ Notes for https://eloquentjavascript.net/
 - var is similar to let but is rarely used due to some rare properties
 - The word const stands for constant. It defines a constant binding, which points at the same value for as long as it lives.
 - Applying the ! operator will convert a value to Boolean type before negating it, and all strings except "" convert to true. 
+
+## Chapter 3
+- 
