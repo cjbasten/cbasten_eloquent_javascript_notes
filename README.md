@@ -17,4 +17,6 @@ Notes for https://eloquentjavascript.net/
 - Applying the ! operator will convert a value to Boolean type before negating it, and all strings except "" convert to true. 
 
 ## Chapter 3
-- 
+- A function is created with an expression that starts with the keyword function. 
+- Bindings declared with let and const are local to the block that they are declared in
+- In pre-2015 JavaScript, only functions created new scopes, so old-style bindings, created with the var keyword, are visible throughout the whole function that they appear in—or throughout the global scope, if they are not in a function.
